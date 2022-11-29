@@ -226,7 +226,7 @@ a:link {
 
 .photo {
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.555)),
-        url("img/photo-1.jpg");
+        url("/ecommerce-lens/img/photo-1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 70rem;
