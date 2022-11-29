@@ -1,0 +1,474 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+
+html {
+    font-size: 62.5%
+}
+
+body {
+    font-family: "Rubik", sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    color: #555;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.a:link,
+.a:visited {
+    text-decoration: none;
+    color: #333;
+}
+
+.a:hover,
+.a:active {
+    color: #000;
+    border-bottom: 2px solid #333;
+}
+
+
+/* ********************* */
+/* Navigation - Top */
+/* ********************* */
+.section-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 3.2rem 11.2rem;
+    /* height: 11.1rem; */
+    /* width: 154rem; */
+    /* background-color: rgb(255, 0, 0); */
+}
+
+.nav-link {
+    list-style: none;
+    font-size: 1.5rem;
+    display: flex;
+    gap: 2rem;
+
+}
+
+.link {
+    display: inline-block;
+    color: rgb(0, 0, 0);
+}
+
+.logo {
+    font-size: 3.24rem;
+    text-transform: uppercase;
+}
+
+/* ********************* */
+/* Navigation - Sub */
+/* ********************* */
+.sub-nav {
+    padding: 2.6rem 11.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.sub-nav--link {
+    gap: 3.2rem;
+    padding: 1rem 0;
+    /* background-color: red; */
+}
+
+.sub-nav-link {
+    font-size: 2rem;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.6rem;
+    font-size: 2rem;
+
+    /* background-color: red; */
+}
+
+.fa-search,
+.fa-heart,
+.fa-shopping-cart {
+    color: #333 !important;
+}
+
+.fa-search:hover,
+.fa-heart:hover,
+.fa-shopping-cart:hover {
+    transform: scale(1.02);
+}
+
+/* ********************* */
+/* Section - Hero */
+/* ********************* */
+
+.section-hero {
+    padding-left: 11.2rem;
+    height: 70rem;
+    background-color: #EADFD8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* justify-content: center;
+    gap: 4.8rem; */
+
+}
+
+.hero-text {
+    width: 45%;
+    ;
+    /* background-color: red; */
+    padding: 16rem 8rem 16rem 11.2rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.sale {
+    line-height: 9.8rem;
+    font-size: 7rem;
+    color: #025162;
+    font-weight: bold;
+}
+
+.upto {
+    line-height: 9.8rem;
+    font-size: 5rem;
+    color: #025162;
+    margin-bottom: 3.6rem;
+    /* font-weight: bold; */
+}
+
+.button,
+.button:visited {
+    text-decoration: none;
+    background-color: #025162;
+    padding: 1.6rem 0;
+    width: 19.6rem;
+    font-size: 2rem;
+    line-height: 3rem;
+    text-align: center;
+    border: none;
+    border-radius: 0.8rem;
+    color: #eee;
+}
+
+.button:hover,
+.button:active,
+.buy:hover,
+.buy:active {
+    /* border: 2px solid rgb(0, 0, 0); */
+
+    transform: scale(1.02);
+}
+
+.hero-img {
+    /* width: 60rem; */
+    height: 70rem;
+}
+
+/* ********************* */
+/* Section - Features */
+/* ********************* */
+
+
+.section-features {
+    padding: 4.8rem 11.2rem;
+    display: flex;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 3rem;
+}
+
+.feature {
+    color: #E75313;
+    padding: 1.6rem 3.6rem;
+    text-align: center;
+}
+
+.feature-text {
+    margin-top: 0.8rem;
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+.icon {
+    width: 8rem;
+    height: 8rem;
+    padding: 1rem;
+    border-radius: 50%;
+    background-color: #EADFD8;
+}
+
+/* ********************* */
+/* Section - Photo */
+/* ********************* */
+.section-photo {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    padding-bottom: 11.2rem;
+}
+
+
+.photo {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.555)),
+        url("/img/photo-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70rem;
+    width: 50%;
+}
+
+.photo-text {
+    padding-left: 5.6rem;
+    padding-top: 45rem;
+    padding-bottom: 4.9rem;
+}
+
+.details {
+    font-size: 4.8rem;
+    line-height: 9.8rem;
+    color: #eee;
+    font-weight: bold;
+}
+
+.buy {
+    border: none;
+    background-color: #EADFD8;
+    border-radius: 0.4rem;
+    width: 11.7rem;
+    height: 6.2rem;
+    padding: 1.6rem 4rem;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 3rem;
+    color: #025162;
+    margin-top: 1.5rem;
+}
+
+/* ******************************** */
+/* Section - Popular, New, Sunwear */
+/* ******************************* */
+.section-popular,
+.section-sunwear,
+.section-new {
+    padding-bottom: 11.2rem;
+}
+
+.popular-text,
+.sunwear-text,
+.new-text,
+.advice-text {
+    font-size: 7rem;
+    /* line-height: 9.8rem; */
+    text-align: center;
+    font-weight: bold;
+    color: #025162;
+}
+
+.items {
+    padding: 8rem 11.2rem 8rem 11.2rem;
+    /* height: 3.7rem; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2.4rem;
+    /* background-color: #E75313; */
+}
+
+.item-photo {
+    border-radius: 1rem;
+    width: 28.8rem;
+    height: 23.6rem;
+}
+
+.item-detail--1 {
+    font-size: 2.5rem;
+    /* line-height: 3.34rem; */
+    color: #414141;
+    font-weight: bold;
+    margin-top: 1.6rem;
+}
+
+.item-detail--2 {
+    font-size: 1.67rem;
+    /* line-height: 2.71rem; */
+    color: #414141;
+    /* font-weight: bold; */
+    margin-top: 1.25rem;
+    margin-bottom: 1.62rem;
+}
+
+.item-detail--3 {
+    text-decoration: none;
+    font-size: 2rem;
+    /* line-height: 3rem; */
+    color: #E75313;
+    font-weight: bold;
+
+}
+
+.item-detail--3:hover {
+    border-bottom: 2px solid rgb(110, 110, 110);
+    color: #b93801;
+}
+
+.see-all {
+    /* background-color: #025162;
+    color: #eee;
+    font-size: 2rem;
+    line-height: 3rem;
+    height: 6.2rem;
+    width: 14.4rem;
+    border-radius: 0.4rem;
+    padding: 1.6rem 4rem;
+    text-align: center;
+    margin: 0 auto; */
+    margin: 0 auto;
+    height: 6.2rem;
+    width: 14.4rem;
+    display: block;
+    /* padding: 1.6rem 4rem; */
+    /* text-align: center !important; */
+}
+
+/* ********************* */
+/* Section - Advice */
+/* ********************* */
+.advices {
+    padding-top: 8rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.advice-1 {
+    height: 63.4rem;
+    /* background-color: red; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 63.4rem;
+    overflow: hidden;
+    place-items: center;
+}
+
+
+.advice-photo {
+    object-fit: cover;
+    height: 63.4rem;
+    width: 100%;
+}
+
+.advice-1--text {
+    padding: 16rem 11.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.headline-text {
+    font-size: 4rem;
+    line-height: 5.4rem;
+    font-weight: bold;
+    color: #414141;
+    margin-bottom: 3.2rem;
+}
+
+.advice-detail-text {
+    font-size: 1.8rem;
+    line-height: 3rem;
+    letter-spacing: -1.5%;
+    color: #414141;
+    margin-bottom: 4.8rem;
+}
+
+/* ********************* */
+/* Section - Footer */
+/* ********************* */
+.section-footer {
+    color: #eee;
+    height: 45.4rem;
+    background-color: #025162;
+    padding: 9.6rem 11.2rem;
+    display: grid;
+    /* grid-template-columns: 48.9rem 13.8rem 17.6rem 17.6rem 17.6rem; */
+    grid-template-columns: 2fr 0.7fr 1fr 1fr 1fr;
+}
+
+.logo-footer {
+    font-size: 3.25rem;
+    line-height: 4.64rem;
+    text-transform: uppercase;
+    color: #EADFD8;
+    margin-bottom: 3rem;
+}
+
+.footer-text,
+.footer-text-1 {
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    color: #D9DBE1;
+    margin-top: 0.6rem;
+}
+
+.footer-text:hover {
+    border-bottom: 2px solid rgb(110, 110, 110);
+    color: #fff;
+
+}
+
+.footer-logo {
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    color: #D9DBE1;
+    margin-bottom: 0.8rem;
+    gap: 1rem;
+    display: flex;
+}
+
+.fa {
+    color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    width: 4rem;
+    height: 4rem;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.107);
+    border-radius: 50%;
+    margin: 3.2rem 0;
+}
+
+.fa-facebook:hover,
+.fa-instagram:hover,
+.fa-twitter:hover,
+.fa-youtube:hover {
+    color: #fff;
+    transform: scale(1.02);
+}
+
+.info-footer {
+    margin-bottom: 3.6rem;
+    font-size: 2rem;
+    line-height: 5rem;
+    color: #eee;
+}
+
+.frankfurt {
+    margin-top: 1rem;
+}

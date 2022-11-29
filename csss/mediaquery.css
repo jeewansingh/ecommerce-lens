@@ -1,0 +1,7 @@
+@media (max-width: 900px) {
+    .item-photo {
+        border-radius: 1rem;
+        width: 20.8rem;
+        height: 25.6rem;
+    }
+}
